@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,68 +13,80 @@
 <body>
 
     <!-- Navigation -->
-    <nav>
-        <div class="logo">Sadia Islam</div>
+    <header>
+        <nav>
+            <h2 class="logo">Sadia Islam</h2>
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
 
-    <!-- Home -->
+    <!-- Home Section -->
     <section id="home" class="hero">
 
-        <div class="hero-text">
-            <p class="hello">Hello, I'm</p>
+        <div class="hero-content">
+
+            <p class="small-text">Hello, I'm</p>
 
             <h1>Sadia Islam</h1>
 
-            <h2>CSE Student & Aspiring Software Developer</h2>
+            <h2>Computer Science & Engineering Student</h2>
 
-            <p>
-                I am a Computer Science and Engineering student passionate
-                about learning programming, Android development and web
-                technologies.
+            <p class="intro">
+                I am a CSE student passionate about software development,
+                Android application development and web technologies.
+                I enjoy learning new technologies and building practical projects.
             </p>
 
             <div class="buttons">
-                <a href="#projects" class="btn">View My Work</a>
-                <a href="#contact" class="btn outline">Contact Me</a>
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn second-btn">Contact Me</a>
             </div>
+
         </div>
 
 
-        <div class="profile">
-            <img src="profile.png" alt="Sadia Islam">
+        <!-- Profile Image -->
+        <div class="profile-container">
+
+            <img src="profile.jpg"
+                 alt="Sadia Islam"
+                 class="profile-image">
+
         </div>
 
     </section>
 
 
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="section">
 
-        <h2>About Me</h2>
+        <h2 class="section-title">About Me</h2>
 
-        <div class="about-card">
+        <div class="card">
 
             <p>
                 I am Sadia Islam, a Computer Science and Engineering student
-                at CCN University of Science and Technology. I started my
-                university journey in 2024.
+                at CCN University of Science and Technology.
             </p>
 
             <p>
-                I am interested in software development, Android application
-                development and web development. I enjoy learning new
-                technologies and improving my programming skills through
-                practical projects.
+                I started my university journey in 2024 and I am currently
+                developing my skills in programming, Android development,
+                web development and database management.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer and gain
+                practical experience by working on real-world projects.
             </p>
 
         </div>
@@ -81,12 +94,12 @@
     </section>
 
 
-    <!-- Skills -->
+    <!-- Skills Section -->
     <section id="skills" class="section">
 
-        <h2>My Skills</h2>
+        <h2 class="section-title">My Skills</h2>
 
-        <div class="skills-container">
+        <div class="skills-grid">
 
             <div class="skill-card">
                 <h3>C Programming</h3>
@@ -114,7 +127,7 @@
             </div>
 
             <div class="skill-card">
-                <h3>GitHub</h3>
+                <h3>Git & GitHub</h3>
                 <p>Version Control</p>
             </div>
 
@@ -123,12 +136,12 @@
     </section>
 
 
-    <!-- Education -->
+    <!-- Education Section -->
     <section id="education" class="section">
 
-        <h2>Education</h2>
+        <h2 class="section-title">Education</h2>
 
-        <div class="education-card">
+        <div class="card education">
 
             <h3>B.Sc. in Computer Science & Engineering</h3>
 
@@ -136,21 +149,21 @@
                 <strong>CCN University of Science and Technology</strong>
             </p>
 
-            <p>Department of CSE</p>
+            <p>Department of Computer Science & Engineering</p>
 
-            <p>Started: 2024</p>
+            <p>Admission Year: 2024</p>
 
-            <p>Currently studying in 3rd Year</p>
+            <p>Currently: 3rd Year Student</p>
 
         </div>
 
     </section>
 
 
-    <!-- Projects -->
+    <!-- Projects Section -->
     <section id="projects" class="section">
 
-        <h2>My Projects</h2>
+        <h2 class="section-title">My Projects</h2>
 
         <div class="project-card">
 
@@ -161,19 +174,21 @@
                 search and find lost and found items.
             </p>
 
-            <span>Android Application • In Progress</span>
+            <div class="project-info">
+                Android Application | In Progress
+            </div>
 
         </div>
 
     </section>
 
 
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact" class="section">
 
-        <h2>Contact Me</h2>
+        <h2 class="section-title">Contact Me</h2>
 
-        <div class="contact-card">
+        <div class="card contact">
 
             <p>
                 <strong>Email:</strong>
@@ -190,14 +205,14 @@
             <p>
                 <strong>GitHub:</strong>
                 <a href="#" target="_blank">
-                    Add GitHub Link
+                    GitHub Profile
                 </a>
             </p>
 
             <p>
                 <strong>LinkedIn:</strong>
                 <a href="#" target="_blank">
-                    Add LinkedIn Link
+                    LinkedIn Profile
                 </a>
             </p>
 
@@ -210,11 +225,11 @@
     <footer>
 
         <p>
-            © 2026 Sadia Islam. All Rights Reserved.
+            © 2026 Sadia Islam | CSE Student
         </p>
 
     </footer>
 
-
 </body>
+
 </html>
