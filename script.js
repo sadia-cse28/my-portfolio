@@ -1,7 +1,14 @@
-// Portfolio JavaScript
+const themeToggleBtn = document.getElementById("themeToggle");
 
-console.log("Sadia's Portfolio is running!");
+if (themeToggleBtn) {
+  themeToggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+}
 
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("Portfolio loaded successfully.");
-});
+
+const greetingEl = document.getElementById("greetingMsg");
+
+if (greetingEl) {
+  greetingEl.textContent = "Welcome to my portfolio!";
+}
